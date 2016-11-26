@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">CinemaWorld</string>
+    <string name="action_settings">Propos</string>
+    <string name="action_exit">Quitter</string>
+    <string name="action_logout_facebook">Déconnexion</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail_film">Detail_film</string>
+    <string name="title_activity_youtube_activity_view">Youtube_activity_view</string>
+    <string name="title_activity_salon_filtre">Cinéma World</string>
+    <string name="title_activity_maps__activity_v2">Map</string>
+    <string name="title_activity_propos">Propos</string>
+
+    <!-- TODO: API KEY HERE -->
+    <string name="key_map">AIzaSyCi3R7cvS6vTO6OKeFRpVHaBNhEge177Ak</string>
+    <string name="key_youtube">AIzaSyAkdPoYUxToG-1P3vGLR0KN0DBz88Pcgmo</string>
+    <string name="facebook_app_id">1717426328499275</string>
+    <string name="gcm_defaultSenderId">275656311001</string>
+
+    <!-- TODO: IP ADRESSE HERE -->
+    <string name="ip_adresse">192.168.1.7</string>
+
+    <!-- TODO:Activity Propos -->
+    <string name="name_titre">Cinema World</string>
+    <string name="name_dev1">nom dévéloppeur 1</string>
+    <string name="name_dev2">nom dévéloppeur 2</string>
+    <string name="name_univer">nom universite </string>
+    <string name="name_date">2015/2016</string>
+    <string name="title_activity_listsfavoris">Listsfavoris</string>
+
+
+</resources>

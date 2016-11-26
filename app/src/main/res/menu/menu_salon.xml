@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.project.cinemaworld.Salon_filtre">
+    <item
+    android:id="@+id/action_siteweb"
+    android:orderInCategory="100"
+    android:title="@string/action_settings"
+        android:icon="@drawable/icon_web"
+    app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_tel"
+        android:orderInCategory="100"
+        android:title="@string/action_logout_facebook"
+        android:icon="@drawable/icon_call"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

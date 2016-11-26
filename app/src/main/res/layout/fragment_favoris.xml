@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.project.cinemaworld.FavorisFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_marginTop="0dp"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view1"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="17dp"
+
+
+                app:cardPreventCornerOverlap="false"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:id="@+id/image_profil"
+                    android:layout_gravity="center_horizontal|center"
+                    android:background="@drawable/icon_afffav"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/layout_fav"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_height="120dp"
+                        android:layout_width="120dp"
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/image_users"
+                        android:src="@drawable/them"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true">
+                    </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="user"
+                    android:id="@+id/name_user_f"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="23dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/cardview_light_background"
+                    android:textStyle="bold"
+
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="email"
+                        android:id="@+id/email_user_f"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="13dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/cardview_light_background"
+                        android:textStyle="italic"
+
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/gotofavori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_below="@+id/card_view1"
+                android:src="@drawable/icon_partage"
+                app:elevation="10dp"
+                app:borderWidth="0dp"
+                app:fabSize="normal"
+                android:layout_marginBottom="45dp"
+                android:layout_marginTop="70dp"
+                app:rippleColor="@color/cardview_dark_background"
+                app:backgroundTint="@color/md_drawer_background"
+                android:layout_centerHorizontal="true"
+                app:layout_anchorGravity="bottom|right|end"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
